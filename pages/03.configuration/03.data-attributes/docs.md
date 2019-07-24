@@ -8,11 +8,13 @@ It is recommended that you declare your configuration options by [passing in an 
 
 ```
 <select data-placeholder="Select a state">
+  <option></option>
   <option value="AL">Alabama</option>
     ...
   <option value="WY">Wyoming</option>
 </select>
 ```
+Note: while using `data-placeholder` you have to add one empty option in your select box as `<option></option>` otherwise the placeholder may not appear.
 
 ## Nested (subkey) options
 
